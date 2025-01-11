@@ -1,6 +1,6 @@
 # Hi there, I'm Cheryl Qian! 👋
 
-Welcome to my GitHub profile! I'm a passionate developer with a keen interest in building innovative solutions and contributing to open-source projects.
+Welcome to my GitHub profile! I'm a passionate designer and developer with a keen interest in building innovative solutions and contributing to open-source projects.
 
 ## 🔧 Technologies & Tools
 
@@ -28,13 +28,13 @@ Welcome to my GitHub profile! I'm a passionate developer with a keen interest in
 
 ## 📫 How to reach me
 
-- Email: [cheryl.qian@example.com](mailto:cheryl.qian@example.com)
+- Email: [cherylqian32@gmail.com](mailto:cherylqian32@gmail.com)
 - LinkedIn: [Cheryl Qian](https://www.linkedin.com/in/cheryl-qian)
 
 ## 🚀 Projects
 
-- **Project Name**: Brief description of what the project is about.
-- **Another Project**: Brief description of another project.
+- **Project Name**: [MERDE Magazine](merdemagazine.com)
+- **Another Project**: [LastCall Mobile App](https://www.figma.com/design/BowYQgOD2MHb1a5MwvYiwR/LastCall?node-id=0-1&t=3xItjWcVnRLVdIJX-1)
 
 Feel free to explore my repositories and contribute to any project that interests you. Let's build something amazing together!
 
