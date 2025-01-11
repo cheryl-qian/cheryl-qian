@@ -1,4 +1,4 @@
-# Hi there, I'm Cheryl Qian! 👋
+# Hi there, I'm Cheryl! 👋
 
 Welcome to my GitHub profile! I'm a passionate designer and developer with a keen interest in building innovative solutions and contributing to open-source projects.
 
