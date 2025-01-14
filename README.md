@@ -1,6 +1,6 @@
 # Hi there, I'm Cheryl! 👋
 
-Welcome to my GitHub profile! I'm a passionate designer and developer with a keen interest in building innovative solutions and contributing to open-source projects.
+Welcome to my GitHub profile! I'm a product designer and developer with a keen interest in building innovative solutions and contributing to open-source projects.
 
 ## 🔧 Technologies & Tools
 
