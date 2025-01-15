@@ -19,8 +19,7 @@ Welcome to the **Rock-Paper-Scissors** game! This tutorial will guide you on how
      ```bash
      git clone https://github.com/cheryl-qian/cheryl-qian.git
      ```
-   - *Note: Replace `your-username` with your actual GitHub username.*
-
+     
 4. **Navigate to the Game Directory**
    - Change to the directory where the game is located:
      ```bash
@@ -68,20 +67,24 @@ Change to the directory of the Rock-Paper-Scissors game:
 
 ```bash
 cd path/to/rock_paper_scissors
-
-Note: Replace path/to with the actual path to the game folder if you cloned the entire repo.
+```
 
 ### 2.2: Run the Game
 Execute the game using:
 
+```bash
 python rock_paper_scissors.py
+```
 
 ### 2.3: Follow the On-Screen Prompts
 Choose Rock, Paper, or Scissors when prompted.
+
 The computer will make its choice, and the result will display.
 Your total wins, losses, and current streaks will be tracked.
 Decide whether to play again or exit the game.
 
 ## Conclusion
-You've successfully cloned and run the Rock-Paper-Scissors game! 🎉 Enjoy playing and tracking your wins and losses. If you have any questions or need assistance, feel free to reach out!
+You've successfully cloned and run the Rock-Paper-Scissors game! 🎉 
+
+Enjoy playing and tracking your wins and losses. If you have any questions or need assistance, feel free to reach out!
 
