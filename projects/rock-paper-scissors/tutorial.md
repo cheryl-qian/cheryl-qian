@@ -1,40 +1,89 @@
-# Rock-Paper-Scissors Game
+# Rock-Paper-Scissors Game Tutorial
 
-Welcome to the Rock-Paper-Scissors game built with Python! This is a simple command-line game where you can play Rock-Paper-Scissors against the computer.
+## Overview
+Welcome to the **Rock-Paper-Scissors** game! This tutorial will guide you on how to clone the project from my GitHub portfolio repository and run the game that tracks wins and loss streaks.
 
-## Table of Contents
+## How to Clone the Project
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Game Rules](#game-rules)
-- [Example](#example)
-- [Contributing](#contributing)
-- [License](#license)
+### Option 1: Clone the Entire Portfolio Repository
 
-## Installation
+1. **Install Git** (if not already installed)
+   - Download and install Git from the [official Git website](https://git-scm.com/).
 
-1. Clone the repository to your local machine:
+2. **Open Your Terminal**
+   - For Windows, use Command Prompt or PowerShell.
+   - For macOS or Linux, open your Terminal.
 
-    ```bash
-    git clone https://github.com/yourusername/rock-paper-scissors.git
-    ```
+3. **Clone the Portfolio Repository**
+   - Run the following command to clone the entire repository:
+     ```bash
+     git clone https://github.com/your-username/portfolio.git
+     ```
+   - *Note: Replace `your-username` with your actual GitHub username.*
 
-2. Navigate to the project directory:
+4. **Navigate to the Game Directory**
+   - Change to the directory where the game is located:
+     ```bash
+     cd portfolio/projects/rock_paper_scissors
+     ```
 
-    ```bash
-    cd rock-paper-scissors
-    ```
+### Option 2: Clone Only the Rock-Paper-Scissors Game
 
-3. (Optional) Create a virtual environment and activate it:
+1. **Install Git** (if not already installed)
+   - Download and install Git from the [official Git website](https://git-scm.com/).
 
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+2. **Open Your Terminal**
+   - For Windows, use Command Prompt or PowerShell.
+   - For macOS or Linux, open your Terminal.
 
-## Usage
+3. **Clone the Specific Game Folder**
+   - Run the following command to clone only the **Rock-Paper-Scissors** game:
+     ```bash
+     git clone https://github.com/your-username/portfolio.git --depth 1 --filter=blob:none --sparse
+     cd portfolio
+     git sparse-checkout init --cone
+     git sparse-checkout set projects/rock_paper_scissors
+     ```
+   - *Note: Replace `your-username` with your actual GitHub username.*
 
-To start the game, run the following command:
+## Step 1: Install Python
+
+### 1.1: Download Python
+If you don't have Python installed, download it from the [official Python website](https://www.python.org/downloads/).
+
+### 1.2: Install Python
+- Follow the installation instructions for your operating system.
+- Ensure to check the option to add Python to your system PATH.
+
+### 1.3: Verify Installation
+Open your terminal and run:
 
 ```bash
-python game.py
+python --version
+
+You should see the version number. If not, please reinstall Python.
+
+Step 2: Run the Game
+2.1: Navigate to the Game Directory
+Change to the directory of the Rock-Paper-Scissors game:
+
+cd path/to/rock_paper_scissors
+Note: Replace path/to with the actual path to the game folder if you cloned the entire portfolio.
+
+2.2: Run the Game
+Execute the game using:
+
+python rock_paper_scissors_streak.py
+2.3: Follow the On-Screen Prompts
+Choose Rock, Paper, or Scissors when prompted.
+The computer will make its choice, and the result will display.
+Your total wins, losses, and current streaks will be tracked.
+Decide whether to play again or exit the game.
+Conclusion
+You've successfully cloned and run the Rock-Paper-Scissors game! 🎉 Enjoy playing and tracking your wins and losses. If you have any questions or need assistance, feel free to reach out!
+
+Additional Resources
+Python Documentation
+Learn Git
+
+This `tutorial.md` provides clear instructions for users to clone either your entire portfolio or just the specific game, along with steps to run the game successfully. If you need any further adjustments or additional information included, just let me know! 😊
