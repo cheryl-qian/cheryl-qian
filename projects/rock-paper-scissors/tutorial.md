@@ -3,7 +3,7 @@
 ## Overview
 Welcome to the **Rock-Paper-Scissors** game! This tutorial will guide you on how to clone the project from my GitHub portfolio repository and run this rock-paper-scissors game that tracks wins and loss streaks.
 
-## How to Clone the Project
+## How to Play
 
 1. **Install Git** (if not already installed)
    - Download and install Git from the [official Git website](https://git-scm.com/).
