@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors Game
 
-Welcome to the Rock-Paper-Scissors game! This is a simple command-line game where you can play Rock-Paper-Scissors against the computer.
+Welcome to the Rock-Paper-Scissors game built with Python! This is a simple command-line game where you can play Rock-Paper-Scissors against the computer.
 
 ## Table of Contents
 
@@ -32,15 +32,9 @@ Welcome to the Rock-Paper-Scissors game! This is a simple command-line game wher
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-4. Install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Usage
 
 To start the game, run the following command:
 
 ```bash
-python main.py
+python game.py
