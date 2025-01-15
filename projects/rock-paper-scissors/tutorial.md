@@ -1,11 +1,9 @@
 # Rock-Paper-Scissors Game Tutorial
 
 ## Overview
-Welcome to the **Rock-Paper-Scissors** game! This tutorial will guide you on how to clone the project from my GitHub portfolio repository and run the game that tracks wins and loss streaks.
+Welcome to the **Rock-Paper-Scissors** game! This tutorial will guide you on how to clone the project from my GitHub portfolio repository and run this rock-paper-scissors game that tracks wins and loss streaks.
 
 ## How to Clone the Project
-
-### Option 1: Clone the Entire Repository
 
 1. **Install Git** (if not already installed)
    - Download and install Git from the [official Git website](https://git-scm.com/).
@@ -14,7 +12,7 @@ Welcome to the **Rock-Paper-Scissors** game! This tutorial will guide you on how
    - For Windows, use Command Prompt or PowerShell.
    - For macOS or Linux, open your Terminal.
 
-3. **Clone the Portfolio Repository**
+3. **Clone the Repository**
    - Run the following command to clone the entire repository:
      ```bash
      git clone https://github.com/cheryl-qian/cheryl-qian.git
@@ -24,24 +22,6 @@ Welcome to the **Rock-Paper-Scissors** game! This tutorial will guide you on how
    - Change to the directory where the game is located:
      ```bash
      cd cheryl-qian/projects/rock_paper_scissors
-     ```
-
-### Option 2: Clone Only the Rock-Paper-Scissors Game
-
-1. **Install Git** (if not already installed)
-   - Download and install Git from the [official Git website](https://git-scm.com/).
-
-2. **Open Your Terminal**
-   - For Windows, use Command Prompt or PowerShell.
-   - For macOS or Linux, open your Terminal.
-
-3. **Clone the Specific Game Folder**
-   - Run the following command to clone only the **Rock-Paper-Scissors** game:
-     ```bash
-     git clone https://github.com/cheryl-qian/cheryl-qian.git --depth 1 --filter=blob:none --sparse
-     cd cheryl-qian/projects
-     git sparse-checkout init --cone
-     git sparse-checkout set projects/rock_paper_scissors
      ```
 
 ## Step 1: Install Python
