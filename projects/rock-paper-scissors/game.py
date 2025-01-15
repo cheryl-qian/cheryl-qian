@@ -1,8 +1,14 @@
 import random
 
+def get_user_choice():
+    user_input = input("Choose Rock, Paper, or Scissors: ").lower()
+    while user_input not in ["rock", "paper", "scissors"]:
+        print("Invalid choice! Please try again.")
+        user_input = input("Choose Rock, Paper, or Scissors: ").lower()
+    return user_input
+
 def get_computer_choice():
-    choices = ["rock", "paper", "scissors"]
-    return random.choice(choices)
+    return random.choice(["rock", "paper", "scissors"])
 
 def determine_winner(user_choice, computer_choice):
     if user_choice == computer_choice:
@@ -12,37 +18,19 @@ def determine_winner(user_choice, computer_choice):
          (user_choice == "scissors" and computer_choice == "paper"):
         return "You win!"
     else:
-        return "You lose!"
+        return "Computer wins!"
 
-def main():
-    win_streak = 0
-    loss_streak = 0
-
-    while True:
-        user_choice = input("Choose rock, paper, or scissors (or 'exit' to quit): ").lower()
-        
-        if user_choice == 'exit':
-            print("Thanks for playing!")
-            break
-
-        if user_choice not in ["rock", "paper", "scissors"]:
-            print("Invalid choice! Please choose rock, paper, or scissors.")
-            continue
-
-        computer_choice = get_computer_choice()
-        print(f"Computer chose: {computer_choice}")
-
-        result = determine_winner(user_choice, computer_choice)
-        print(result)
-
-        if result == "You win!":
-            win_streak += 1
-            loss_streak = 0
-        elif result == "You lose!":
-            loss_streak += 1
-            win_streak = 0
-
-        print(f"Current Win Streak: {win_streak}, Current Loss Streak: {loss_streak}\n")
+def play_game():
+    print("Welcome to Rock-Paper-Scissors!")
+    user_choice = get_user_choice()
+    computer_choice = get_computer_choice()
+    
+    print(f"You chose: {user_choice}")
+    print(f"Computer chose: {computer_choice}")
+    
+    result = determine_winner(user_choice, computer_choice)
+    print(result)
 
 if __name__ == "__main__":
-    main()
+    play_game()
+
