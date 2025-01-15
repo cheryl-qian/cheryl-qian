@@ -2,7 +2,7 @@
 
 #### Tue Jan 14, 2025
 
-Learning is hard...and one thing I have always struggled with is staying organized. I'm going to use this as a brain dump so other lost coders might be able to follow along.
+Learning is hard...and one thing I have always struggled with is staying organized. I'm going to use this as a brain dump so other lost programmers might might be able to follow along. I could totally use stack overflow but I'm too lazy to create an account right now. 
 
 Questions:
 
