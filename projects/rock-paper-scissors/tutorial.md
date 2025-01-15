@@ -1,7 +1,7 @@
 # Rock-Paper-Scissors Game Tutorial
 
 ## Overview
-Welcome to the **Rock-Paper-Scissors** game! This tutorial will guide you on how to clone the project from my GitHub portfolio repository and run this rock-paper-scissors game that tracks wins and loss streaks.
+Welcome to the **Rock-Paper-Scissors** game! This tutorial will guide you on run this rock-paper-scissors game that tracks wins and loss streaks.
 
 ## How to Play
 
@@ -43,7 +43,7 @@ You should see the version number. If not, please reinstall Python.
 
 ## Step 2: Run the Game
 ### 2.1: Navigate to the Game Directory
-Change to the directory of the Rock-Paper-Scissors game:
+Make sure you are in the directory of the Rock-Paper-Scissors game:
 
 ```bash
 cd path/to/rock_paper_scissors
@@ -64,7 +64,7 @@ Your total wins, losses, and current streaks will be tracked.
 Decide whether to play again or exit the game.
 
 ## Conclusion
-You've successfully cloned and played the Rock-Paper-Scissors game! 🎉 
+You've successfully played the Rock-Paper-Scissors game! 🎉 
 
 Enjoy playing and tracking your wins and losses. If you have any questions or need assistance, feel free to reach out!
 
