@@ -64,7 +64,7 @@ Your total wins, losses, and current streaks will be tracked.
 Decide whether to play again or exit the game.
 
 ## Conclusion
-You've successfully cloned and run the Rock-Paper-Scissors game! 🎉 
+You've successfully cloned and played the Rock-Paper-Scissors game! 🎉 
 
 Enjoy playing and tracking your wins and losses. If you have any questions or need assistance, feel free to reach out!
 
