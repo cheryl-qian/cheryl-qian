@@ -39,7 +39,7 @@ Welcome to the **Rock-Paper-Scissors** game! This tutorial will guide you on how
    - Run the following command to clone only the **Rock-Paper-Scissors** game:
      ```bash
      git clone https://github.com/cheryl-qian/cheryl-qian.git --depth 1 --filter=blob:none --sparse
-     cd cheryl-qian
+     cd cheryl-qian/projects
      git sparse-checkout init --cone
      git sparse-checkout set projects/rock_paper_scissors
      ```
