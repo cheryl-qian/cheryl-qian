@@ -59,7 +59,7 @@ Open your terminal and run:
 
 ```bash
 python --version
-
+```
 You should see the version number. If not, please reinstall Python.
 
 ## Step 2: Run the Game
